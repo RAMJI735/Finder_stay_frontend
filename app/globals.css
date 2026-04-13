@@ -7,9 +7,14 @@
 
 @theme inline {
   --color-background: var(--background);
+  --color-BackgroundPaper: var(--background-paper);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background-paper: #f8fafc;
 }
 
 @media (prefers-color-scheme: dark) {

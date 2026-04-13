@@ -1,0 +1,7 @@
+[
+  { "label": "Home", "path": "/" },
+  { "label": "Hotels", "path": "/hotel" },
+  { "label": "Bookings", "path": "/bookings" },
+  { "label": "About", "path": "/about" },
+  { "label": "Contact", "path": "/contact" }
+]
