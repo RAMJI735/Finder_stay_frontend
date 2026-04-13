@@ -26,7 +26,7 @@ export const fetchRoomByHotelId = async (hotelId: string) => {
 
 export const getRoomById = async (roomId: string) => {
     try {
-        const response = await api.get(`/room/listings/${roomId}`);
+        const response = await api.get(`/room/listing/${roomId}`);
         return response.data; // Assuming the room data is in the response data
     }
     catch (error) {
